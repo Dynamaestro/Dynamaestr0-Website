@@ -18,9 +18,18 @@ body {
     background-color: #111111;
 }
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
     color: #a855f7;
     font-size: 26px;
     font-weight: bold;
+}
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
 }
 .nav-links {
     display: flex;
